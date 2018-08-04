@@ -4260,9 +4260,11 @@ a:hover .c-btn {
 
     .toppings {
         margin-top: -18px;
+        margin-bottom: -20px;
     }
     .toppings2 {
         margin-top: -18px;
+        margin-bottom: -20px;
     }
 
     .classicPizza {
@@ -4271,6 +4273,10 @@ a:hover .c-btn {
 
     .skillbar-title {
         margin-top: -15px;
+    }
+
+    .section-heading-correction-services {
+        margin-top: 15px;
     }
 }
 
