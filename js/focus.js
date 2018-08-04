@@ -518,8 +518,8 @@ $(function () {
     // 21. Instafeed
     var userFeed = new Instafeed({
         get: "user",
-        userId: "5975086331", // Instagram User ID
-        accessToken: "5975086331.1677ed0.5c991b59366a426fadf3e868310cc56b", // Instagram Access Token
+        userId: "2033122498", // Instagram User ID
+        accessToken: "2033122498.1677ed0.987858a2ba0b4f47939317e38069e843", // Instagram Access Token
         limit: 10,
         resolution: "standard_resolution",
         template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>',
@@ -533,12 +533,12 @@ $(function () {
 // 22. google maps POSITION
 function initialize() {
     // EDIT: map latitude and longitude
-    var myLatlng = new google.maps.LatLng(34.052235, -118.243683);
+    var myLatlng = new google.maps.LatLng(40.860821, -111.892643);
     // EDIT: map marker
     var imagePath = "images/location-icon.png";
     var mapOptions = {
         scrollwheel: false,
-        zoom: 12,
+        zoom:15,
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: [{
@@ -626,7 +626,7 @@ function initialize() {
             }]
     }
     // EDIT: map address
-    var contentString = "<strong>Focus</strong><br>ex Inc. Touchdown Dr<br>1176 Los Angeles, CA";
+    var contentString = "<strong>Ti Amo Wood Fired Pizza</strong><br>515 West 2600 South<br>Bountiful, UT";
     var infowindow = new google.maps.InfoWindow({
         content: contentString,
         maxWidth: 300
