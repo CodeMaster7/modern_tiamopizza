@@ -3628,6 +3628,7 @@ h1.home-page-title.typed-effect {
     background-size: cover;
     border: 100px solid #000;
     z-index: 1;
+    margin-bottom: 10%;
 }
 
 @media only screen and (max-width: 1200px) {
